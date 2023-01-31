@@ -1,3 +1,11 @@
 <div class="container">
-    <p>Holaaa</p>
+    <div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"
+        *ngFor="let oneProduct of products"
+    >
+    {{ oneProduct.name }}
+    </li>
+  </ul>
+</div>
 </div>
